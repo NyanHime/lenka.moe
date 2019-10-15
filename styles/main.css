@@ -11,6 +11,13 @@ body {
     background-repeat: no-repeat;
     margin: 0;
 }
+input {
+    margin: 0.1em;
+    background: #2b4050aa;
+    color: #aaaaaa;
+    border: none;
+    width: 100%;
+}
 .shadow {
     position: relative;
     overflow: auto;
@@ -46,6 +53,16 @@ a {
     margin-left: auto;
     margin-right: auto;
     width: 45em;
+}
+.login-form {
+    margin: 1em;
+    padding: 1em;
+    padding-left: 1em;
+    color: #aaaaaa;
+    background: #10181ecc;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15em;
 }
 .left-text {
     text-align: left !important;
