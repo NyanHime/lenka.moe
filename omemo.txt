@@ -1,0 +1,18 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+# http://lenka.moe/omemo.txt
+# Fri Jan  3 08:58:40 MSK 2020
+temporarily unavailable
+-----BEGIN PGP SIGNATURE-----
+
+iQE3BAEBCgAhGhxMZW4ta2EgPGxlbmthQGFpcm1haWwuY2M+BQJeDtgoAAoJEM77
+k2icumP3nl8H+wQQNUfFu+Rf5C+QDA6KDyUDUxyFLGCHXh7D+9RNxmOngM4yQdXR
+kM7jIhsaruKBuimu1rf2mCRgER/YLwZU+Ejn0u153lQXTKOnMMV2BYvJ/O8ask2l
+MoOshGb00pHwkj9/88hX/F00yhGTjqWhL5+W1swLMS+qMDhPP+CXV714CBosm4sl
+2/1iI/O0nXj/XnuaLWE3hrGs4YJ805u5mrFSq9LngwMOr/6Ggycb21jPoIc5a8rj
+2ck6tKbxrjORtb5z9/DT2x8GWEBwoezqleB6BW5F+ozKIxDcwcZcCLdIF+J3jHkM
+iWHI43MZbZvGLdsBbkQaYVyPh3PiLXVVJ20=
+=pyPn
+-----END PGP SIGNATURE-----
+
