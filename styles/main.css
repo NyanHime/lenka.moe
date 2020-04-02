@@ -34,6 +34,9 @@ input {
 a {
     color: #AAAAAA;
 }
+.me-link {
+    display: none;
+}
 .bottom {
     position: absolute;
     bottom: 0;
