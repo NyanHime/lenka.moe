@@ -82,10 +82,10 @@ a {
     bottom: 50%;
     font-size: 5em;
 }
-@media screen and (orientation:portrait)
+/*@media screen and (orientation:portrait)
 {
 	p { display: block; }
-}
+}*/
 @media screen and (orientation:portrait) and (max-width:1500px)
 {
     h1 { font-size: 12em; }
