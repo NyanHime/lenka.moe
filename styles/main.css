@@ -42,7 +42,6 @@ a {
     bottom: 0;
     width: 100%;
     color: #AAAAAA;
-    text-align: right;
 }
 .post-container {
     vertical-align: middle;
@@ -69,6 +68,9 @@ a {
 }
 .left-text {
     text-align: left !important;
+}
+.right-text {
+    text-align: right !important;
 }
 .non-scroll {
     overflow: hidden !important;
