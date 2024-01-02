@@ -38,7 +38,7 @@ jobs:
           mkdir -p .well-known/openpgpkey
           cd .well-known
           gpg --list-options show-only-fpr-mbox  -k @lenka.moe | /usr/lib/gnupg/gpg-wks-client -v --install-key
-          cp -rv openpgpkey/*/* openpgpkey/
+          cp -rvf openpgpkey/*/* openpgpkey/
           cd ..
       - name: Prepare fiels
         run: |
