@@ -43,7 +43,7 @@ jobs:
       - name: Prepare fiels
         run: |
           mkdir -p .public
-          cp -rv
+          cp -rv .well-known .public/
           cp -rv * .public/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
