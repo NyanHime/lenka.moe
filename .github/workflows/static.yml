@@ -34,6 +34,7 @@ jobs:
       - name: Import pgp keys
         run: |
           gpg --import .gnupg/*
+          rm -r .well-known/openpgpkey
           mkdir -p .well-known/openpgpkey
           cd .well-known
           gpg --list-options show-only-fpr-mbox  -k @lenka.moe | /usr/lib/gnupg/gpg-wks-client -v --install-key
