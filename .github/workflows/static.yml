@@ -45,6 +45,11 @@ jobs:
           mkdir -p .public
           cp -rv .well-known .public/
           cp -rv * .public/
+      - name: Fix permissions
+        run: |
+          chmod -c -R +rX ".public" | while read line; do
+            echo "::warning title=Invalid file permissions automatically fixed::$line"
+          done
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
