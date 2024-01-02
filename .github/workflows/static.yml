@@ -31,9 +31,18 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Import pgp keys
+        run: |
+          gpg --import .gnupg/*
+          mkdir -p .well-known/openpgpkey
+          cd .well-known
+          gpg --list-options show-only-fpr-mbox  -k @lenka.moe | gpg-wks-client -v --install-key
+          cp -rv openpgpkey/*/* openpgpkey/
+          cd ..
       - name: Prepare fiels
         run: |
           mkdir -p .public
+          cp -rv
           cp -rv * .public/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
